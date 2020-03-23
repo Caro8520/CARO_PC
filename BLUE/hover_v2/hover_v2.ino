@@ -62,8 +62,8 @@ void loop() {
     }
     
   }else{
-    analogWrite(M1,0);
-    analogWrite(M2,0);
+    analogWrite(M1,pwm_min);
+    analogWrite(M2,pwm_min);
   }
 
 }
